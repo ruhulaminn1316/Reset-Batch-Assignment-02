@@ -350,13 +350,18 @@ display: grid;
     .img-card{
         margin-bottom: 10px;
     }
+    .img-card h4{
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
     .img-card p{
+        margin-top: 5px;
         font-size: .775rem;
     }
 
 
 
 
-    
+
 }
 
