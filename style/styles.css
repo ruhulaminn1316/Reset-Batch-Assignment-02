@@ -14,6 +14,9 @@
 .hamberger{
     display: none;
 }
+.play-icon{
+    display: none;
+}
 /*Shared Style   */
 .display-flex{
     display: flex;
@@ -709,7 +712,7 @@ select option{
     padding-left: 20px;
     padding-top: 2px;
     padding-bottom: 2px;
-  
+ 
 }
 .banner{
 display:grid;
@@ -741,7 +744,16 @@ margin-top:0px;
 height: 24px;
 width: 24px;
 }
-
+.btn-div{
+    display: none;
+}
+.play-icon{
+    display: contents;
+}
+.play-icon img{
+    height:50px;
+    width: 50px;
+}
 
 
 /* end Banner */
