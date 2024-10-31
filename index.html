@@ -9,44 +9,65 @@
 <body class="inter-font">
     <!-- Header section -->
     <header class="Header">
-<nav class="navbar display-flex">
-    <h3 class="fitness">
-Fitness
-    </h3>
-    <ul class="nav-title display-flex" >
-        <button class="btn-primary nav-item">Home</button>
-        <li class="nav-item"><a href="" class="nav-link">Service</a></li>
-        <li class="nav-item"><a href="" class="nav-link">contact</a></li>
-        <li class="nav-item"><a href="" class="nav-link">About</a></li>
-    </ul>
-</nav>
-<div class="banner">
-    <div class="banner-contant">
-<h1 class="banner-h">
-    Get body in <br> <span class="shape">shape</span> & stay healthy
-</h1>
-<p class="banner-p">A huge selection of health and fitness content, healthy recipes <br> and transformation stories to help you get fit and stay fit!</p>
-<button class="btn-b">Join Club Now!</button>
-<button class="btn-b">Download App</button>
-
-    </div>
-    <div class="banner-img">
-        <img src="images/Images 2.png" alt="gym picture">
-        <button class="plus-350"><div class="btn-div"></div> 
-            <div class="block-element">
-                 <h2 id="btn-id">350+</h2>
-            <p id="btn-sub-title">video tutorial</p>
+<div class="header-contant">
+    <nav class="navbar display-flex">
+        <h3 class="fitness">
+    <i>Fitness</i>
+        </h3>
+        <div class="hamberger">
+            <a href="#">
+            <img src="images/interface.png" alt="">
+            </a>
         </div>
-    </button>
-        <!-- <button><span>500+</span>
-            Free Workout Videos</button> -->
+        <ul class="nav-title display-flex" >
+            <button class="btn-primary nav-item">Home</button>
+            <li class="nav-item"><a href="" class="nav-link">Service</a></li>
+            <li class="nav-item"><a href="" class="nav-link">contact</a></li>
+            <li class="nav-item"><a href="" class="nav-link">About</a></li>
+        </ul>
+    </nav>
+    <div class="banner">
+        <div class="banner-contant">
+    <h1 class="banner-h">
+       <span id="shape-00"> Get body in</span>
+        <br> 
+       <span class="shape">s<span class="large">h</span>a<span class="large-1">p</span>e</span> 
+      </span> <span class="shape-03"> & stay</span>
+       <br>
+      <span class="shape-04">healthy</span>
+       
+    </h1>
+    <p class="banner-p">A huge selection of health and fitness content, healthy recipes <br> and transformation stories to help you get fit and stay fit!</p>
+    <button class="btn-b">Join Club Now!</button>
+    <button class="btn-b-1">Download App</button>
+        </div>
+        <div class="banner-img" id="b-img-p">
+            <img class="banner-gym-img" src="images/Images 2.png" alt="gym picture">
+            <button class="plus-350">
+                <div class="btn-div">
+                </div>
+                <div class="block-element">
+                   
+                     <h2 class="btn-id-350">350+</h2>
+                <p class="btn-sub-title-350">video tutorial</p>
+            </div>
+        </button>
 
+            <button class="btn-500">
+                <div class="block-element">
+                    <h2 class="btn-id">500+</h2>
+                <p class="btn-sub-title">Free Workout Videos</p>
+                </div>
+            </button>
+    
+        </div>
     </div>
+    
+    
 </div>
 
-
-
     </header>
+
 <!-- End Header section -->
  <!-- Main Section Start  -->
     <main>
@@ -118,7 +139,7 @@ Fitness
     <h2 class="calculator-title-h">
         BMI Calculator
     </h2>
-    <p class="calculator-title-p p-margin">
+    <p class="calculator-title-p">
         We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
     </p>
 </div>
@@ -155,45 +176,39 @@ Fitness
 
 
 </table>
-    </div>
-    <div class="form">
-        <h2 class="c-color">Calculate your BMI</h2>
-        <p class="calculator-title-p">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
-<form>
-<input type="text" placeholder="Height/cm">
-<input type="text" placeholder="Height/cm">
-<input type="text" placeholder="Age">
-<select name="sex" id="sex">
-<option value="Sex">Sex</option>
-<option value="Male">Male</option>
-<option value="Female">Female</option>
-</select>
-<select name="activity factor" id="activity factor"><option value="Select an activity factor">Select an activity factor</option>
-    <option value="Low active">Low active</option>
-    <option value="Super actice">Super actice</option>
-</select>
-
-
-
-
-</form>
-
-    </div>
 </div>
 
 
+    <div class="form">
+        <h2 class="c-color-01">Calculate your BMI</h2>
+        <p class="calculator-title-p calculator-p">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+<form>
+<div class="form-div flex-div">
+<input type="number" placeholder="Height/cm">
+<input type="number" placeholder="Weight/kg">
+</div>
 
+<div class="form-div flex-div">
+    <input type="number" placeholder="Age">
+    <select id="sex">
+    <option value="" selected disabled>Sex</option>
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    </select>
+</div>
 
-
-
-
-
-
-
-
-
-
-
+<div class="form-div Extra-width">
+    <select id="activity-factor">
+        <option value="" selected disabled>Select an activity factor</option>
+        <option value="Low active">Low active</option>
+        <option value="Super actice">light active</option>
+    </select>
+</div>
+<button class="btn-b-01">Calculate</button>
+</form>
+</div>
+ </div>
+</div>
 
  </section>
 
@@ -212,7 +227,7 @@ Fitness
          <p class="trainer-p">Trainer</p>
          </div>
          
-<div class="trainer ">
+<div class="trainer c-w ">
     <img src="images/trainer2.png" alt="">
         <h4 class="trainer-h">Cameron Williamson
         </h4>
