@@ -344,15 +344,21 @@ margin-top: 0;
 
 
 }
-.run-img img {
-margin-right: 30px;
-}
- .img-resize{
-width: 330px;
-height: 310px;
-border-radius: 16px;
+.run-img {
+width: 100%;
+overflow:hidden;
+border: 2px solid green;
+border-radius: 18px;
+margin: 30px;
 
-} 
+
+}
+.run-img img{
+
+    clip-path: inset(190px 340px 390px 720px);
+    height:312px;
+    width:366px;
+}
 
 .run-h2{
     margin-bottom: 0;
